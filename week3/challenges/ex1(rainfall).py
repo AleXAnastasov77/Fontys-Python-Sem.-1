@@ -47,6 +47,7 @@ def average_weekly(numbers):
         start += 7
         end += 7
     return weekAverages
+
 def average_monthly(numbers):
     numbers.reverse()
     start = 0
